@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" class="boo">
+<head>
+  <meta charset="UTF-8">
+  <title>FoxTrot-Lab-Mid-Term</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./styles/style.css">
+  <!--Setting up background using style for-->
+  <style>
+    #grad1 {
+      height: 200px;
+      background-color: red; /* For browsers that do not support gradients */
+      background-image: linear-gradient(to right, gold , blue);
+    }
+    </style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="container-fluid">
+
+  <!--  nav bar  -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://en.wikipedia.org/wiki/Ethan_(given_name)#:~:text=Popularity,Ethan%20were%20born%20after%201989." target ="_blank">Ethan Hubbard</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/ethan-hubbard-1a74b2244/" target ="_blank">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/HubbbaBubbba/FoxTrot-Lab-Mid-Term" target ="_blank">Foxtrot Repo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FHubbbaBubbba%2FFoxTrot-Lab-Mid-Term" target ="_blank">Check this page's validation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+
+              <!-- <div class="row"> -->
+              <!-- Card with Immage and overlay text-->  
+              <!-- <div class="col-md-10"> -->
+              <div class="card" style="height: 500px;">
+                <h1 class="solid-bg card-title"> The Fam</h1>
+                <div class="card-body">
+                  <div class="maintxt">
+                  <img src="img/HubbardFamPic.jpeg" class="img-fluid" alt="..">
+                  <span class="overlay-text">My Fam is me (left), my sister Emily, my mom Diane, and my dad Scottie(right)</span>
+                
+                </div>
+                </div>
+              </div>
+            <!-- </div> -->
+
+            <!-- </div>
+
+            Button set up
+
+            <div class="row"> -->
+
+              <div class="col-md-12 card button">
+                <a href="https://armorgames.com/play/616/age-of-war" target="_blank">
+                  <input  type="button" value="My Childhood Favorite!"  class="btn btn-primary formaction"/>
+                </a>
+              </div>
+                <div>
+                  <!--Links to my games in a card-->
+                  <p><h3>My Wonderful games</h3> </p>
+                </div>
+              <div class="card" style="width: 50rem;">
+                <ul class="list-group list-group-flush">
+                  <ul>
+                    <li><a href="https://hubbbabubbba.github.io/ECHO-Fun-Game-Time/" target="_blank"><h2>Game Center - ECHO</h2></a></li>
+                    <li><a href="https://hubbbabubbba.github.io/super-duper-robot-charlie/" target="_blank"><h2>Bred or Da Gem - CHARLIE</h2></a></li>
+                    <li><a href="https://hubbbabubbba.github.io/Delta-Lab-Name-Wow/" target="_blank"><h2>Cool Name Factz - Delta</h2></a></li>
+                </ul>
+                </ul>
+              </div>
+            </div>
+            
+            <!-- </div> -->
+
+            <!--Setting up Tabs for Ethan's Laboratory-->
+           <div class="col-md-8 card">
+               <h1 class="solid-bg">Ethan's Laboratory </h1>
+               
+                <div class="tab">
+                  <button class="tablinks" onclick="openTab(event, 'aboutMe')">About Me!</button>
+                  <button class="tablinks" onclick="openTab(event, 'skills')">My Skills!</button>
+                  <button class="tablinks" onclick="openTab(event, 'futureGoals')">Accomplishments and Future Goals!</button>
+                </div>
+
+                <div id="aboutMe" class="tabcontent">
+                  <h1>A little bit about me</h1>
+                  <p><h4>Born and raised in Decatur, Alabama.</h4></p>
+                  <p><h4>Some of my favorite hobbies include:</h4></p>
+                    <ul>
+                      <li>I play on the University Rocket League, Call of Duty, and Halo team.</li>
+                      <li>Watching college football and baseball</li>
+                      <li>Listening to music just driving around the block</li>
+                      <li>Helping with Philanthropy events</li>
+                      <li>and intermurals like softball, sand/regular volleyball, and flag football</li>
+                    </ul>
+                  <p><h4>I played football and baseball in Highschool.</h4></p>
+                  <p><h4>I have been to multiple countries on mission trips including:</h4></p>
+                  <ul>
+                    <li>Ghana</li>
+                    <li>Ukraine</li>
+                    <li>Honduras</li>
+                    <li>and Japan</li>
+                  </ul>
+                  <p><h4>I am always down to have deep conversations about anything at all.</h4></p>
+                </div>
+
+                <div id="skills" class="tabcontent">
+                  <h1>My Skillz</h1>
+                  <p><h4>I have a fundamental understanding of:</h4></p>
+                  <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>MySQL</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Excel, Word, and Access!</li>
+                  </ul>
+                  <p><h4>My leadership positions include:</h4></p>
+                  <ul>
+                    <li>Secretary for Alpha Tau Omega</li>
+                    <li>Risk Management for Alpha Tau Omega</li>
+                    <li>Secretary of North Alabama Gaming</li>
+                  </ul>
+                </div>
+
+                <div id="futureGoals" class="tabcontent">
+                  <h1>Accomplishments</h1>
+                  <p><h4>My leadership positions include:</h4></p>
+                  <ul>
+                    <li>UNA respresentative at CLEG.</li>
+                    <li>Highschool baseball state championship</li>
+                    <li>Placed 36th in the country in Call of Duty my Sophmore year.</li>
+                    <li>Finally, I am happy I made it this far in college</li>
+                  </ul>
+                  <p><h4>Some of my future Goals!</h4></p>
+                  <ul>
+                    <li>I would love to work in Huntsville and eventually move to Colorado for Skiing.</li>
+                    <li>I would like a job in VMware or Administrative positions. Then eventually move up to work more with people!</li>
+                    <li>I would love to get my security clearance and pass Security+ certification for more oppurtunities in government related positions.</li>
+                    <li>Get a dog and name him Joe.</li>
+                  </ul>
+                </div>
+                <script>
+                  function openTab(evt, tabContent) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                      tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                      tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    document.getElementById(tabContent).style.display = "block";
+                    evt.currentTarget.className += " active";
+                  }
+                  </script>  
+          </div>
+       </div>
+    <div id="grad1">
+  <div id="grad1"></div>
+  <!--Adding a footer-->
+  <footer class="footer bg-light text-center">
+    <div class="container">
+      <span class="text-muted">© Put this on a fridge 2022. </span>
+    </div>
+  </footer>
+    
+  </body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
+</body>
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
+</body>
+</html>
